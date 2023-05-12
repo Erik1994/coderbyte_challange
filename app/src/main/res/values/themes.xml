@@ -13,4 +13,8 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Button" parent="Theme.CoderbyteChallange">
+        <item name="colorPrimary">@android:color/holo_red_dark</item>
+    </style>
 </resources>

@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Coderbyte Challange</string>
+    <string name="profile_creation">Profile Creation</string>
+    <string name="help_text">Use the form below to submit your portfolio.\nAn email and password are required. </string>
+    <string name="first_name">First Name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="website">Website</string>
+    <string name="submit">Submit</string>
 </resources>
