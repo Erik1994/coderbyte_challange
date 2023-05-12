@@ -108,7 +108,7 @@
         android:layout_marginBottom="@dimen/medium_margin"
         android:background="@drawable/button_shape"
         android:padding="@dimen/sign_tv_padding"
-        android:text="@string/submit"
+        android:text="@string/sign_in"
         android:theme="@style/Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline_right"

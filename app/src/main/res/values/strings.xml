@@ -16,4 +16,5 @@
     <string name="ok">Ok</string>
     <string name="hello">Hello %1$s!</string>
     <string name="confirmation_message">Your super-awesome portfolio has been \nsuccessfully submitted! The preview below is \nwhat the community will see</string>
+    <string name="sign_in">Sign in</string>
 </resources>
