@@ -9,6 +9,14 @@
     <fragment
         android:id="@+id/signUpFragment"
         android:name="com.example.coderbytechallange.ui.features.signup.SignUpFragment"
-        android:label="fragment_sign_up"
-        tools:layout="@layout/fragment_sign_up" />
+        android:label="Sign Up"
+        tools:layout="@layout/fragment_sign_up" >
+        <action
+            android:id="@+id/action_signUpFragment_to_confirmationFragment"
+            app:destination="@id/confirmationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/confirmationFragment"
+        android:name="com.example.coderbytechallange.ui.features.confirmation.ConfirmationFragment"
+        android:label="Confirmation" />
 </navigation>

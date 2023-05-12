@@ -4,12 +4,15 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.activityViewModels
 import com.example.coderbytechallange.databinding.FragmentConfirmationBinding
 import com.example.coderbytechallange.ui.common.BaseFragment
+import com.example.coderbytechallange.ui.features.shared.SignSharedVIewModel
 
 
 class ConfirmationFragment : BaseFragment() {
     private var binding: FragmentConfirmationBinding? = null
+    override val viewModel: SignSharedVIewModel by activityViewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
