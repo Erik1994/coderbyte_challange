@@ -1,5 +1,6 @@
 package com.example.coderbytechallange.ui.features.signup
 
+import android.Manifest
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -48,9 +49,15 @@ class SignUpFragment : BaseFragment() {
     }
 
     private fun setClickListeners() {
+        onPermissionGranted = {
+            takePhoto.launch(null)
+        }
+
         binding?.apply {
             collectLifeCycleFlow(avatarCv.clicks()) {
-                takePhoto.launch(null)
+                if (!isPermissionsGranted(listOf(Manifest.permission.CAMERA))) {
+                    requestPermission(arrayOf(Manifest.permission.CAMERA))
+                } else takePhoto.launch(null)
             }
 
             collectLifeCycleFlow(submitBtn.clicks()) {
