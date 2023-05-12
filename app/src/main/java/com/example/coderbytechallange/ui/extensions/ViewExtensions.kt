@@ -25,3 +25,5 @@ fun <T> ProducerScope<T>.safeOffer(element: T) {
         trySend(element)
     }
 }
+
+fun <T> T?.orDefault(default: T) = this ?: default

@@ -45,8 +45,8 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/avatar_cv"
-        android:layout_width="100dp"
-        android:layout_height="150dp"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
         android:layout_marginTop="@dimen/max_margin"
         app:cardCornerRadius="@dimen/corner_radius"
         app:layout_constraintEnd_toStartOf="@+id/guideline_right"
@@ -120,7 +120,6 @@
         android:background="@drawable/background_shape"
         android:ems="10"
         android:hint="@string/website"
-        android:inputType="textPassword"
         android:padding="@dimen/sign_tv_padding"
         app:layout_constraintEnd_toStartOf="@+id/guideline_right"
         app:layout_constraintStart_toStartOf="@+id/guideline_left"

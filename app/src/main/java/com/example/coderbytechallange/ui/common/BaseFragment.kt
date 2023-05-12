@@ -13,7 +13,6 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.coderbytechallange.R
-import com.example.coderbytechallange.ui.extensions.BaseViewModel
 import com.example.coderbytechallange.ui.extensions.collectLifeCycleFlow
 import com.example.coderbytechallange.ui.navigation.NavigationCommand
 

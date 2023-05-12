@@ -1,4 +1,4 @@
-package com.example.coderbytechallange.ui.extensions
+package com.example.coderbytechallange.ui.common
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

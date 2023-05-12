@@ -3,7 +3,6 @@
     <string name="profile_creation">Profile Creation</string>
     <string name="help_text">Use the form below to submit your portfolio.\nAn email and password are required. </string>
     <string name="first_name">First Name</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="email_address">Email Address</string>
     <string name="password">Password</string>
@@ -15,4 +14,6 @@
     <string name="please_grant_all_permissions_to_use_this_app">Please grant all permissions to use this app</string>
     <string name="cancel">Cancel</string>
     <string name="ok">Ok</string>
+    <string name="hello">Hello %1$s!</string>
+    <string name="confirmation_message">Your super-awesome portfolio has been \nsuccessfully submitted! The preview below is \nwhat the community will see</string>
 </resources>

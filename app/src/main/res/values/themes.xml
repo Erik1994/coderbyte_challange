@@ -17,4 +17,9 @@
     <style name="Button" parent="Theme.CoderbyteChallange">
         <item name="colorPrimary">@android:color/holo_red_dark</item>
     </style>
+
+    <style name="MyLinkTextStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/link_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>
